@@ -65,7 +65,7 @@ const NavbarLinksWrapper = styled.ul`
     }
   }
 
-  height: ${props => (props.open ? "152px" : "0px")};
+  height: ${props => (props.open ? "auto" : "0px")};
   overflow: hidden;
   ${transObject({})};
   @media (min-width: 768px) {
