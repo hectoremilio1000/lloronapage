@@ -62,35 +62,23 @@ export default function reserva() {
 
 const itemData = [
   {
-    img: "https://imagenesrutalab.s3.amazonaws.com/llorona/galeriaimagenes/hamburguesa_resistir_2_insta.JPG",
-    title: "Hamburguesa de tocino",
+    img: "https://imagenesrutalab.s3.amazonaws.com/llorona/cumple/pinatacumpleanera.JPG",
+    title: "Piñata",
     rows: 2,
     cols: 2,
     featured: true,
   },
   {
-    img: "https://imagenesrutalab.s3.amazonaws.com/llorona/galeriaimagenes/HAMBURGUESA_CAMARON_BBQ+copy.JPG",
-    title: "Hamburguesa de camarón",
+    img: "https://imagenesrutalab.s3.amazonaws.com/llorona/cumple/ninapinata.JPG",
+    title: "novios",
   },
   {
-    img: "https://imagenesrutalab.s3.amazonaws.com/llorona/galeriaimagenes/bbq2reducidatamano.jpg",
-    title: "BBQ casa",
+    img: "https://imagenesrutalab.s3.amazonaws.com/llorona/cumple/nina2pinata.JPG",
+    title: "cumple",
   },
   {
-    img: "https://imagenesrutalab.s3.amazonaws.com/llorona/galeriaimagenes/hamburguesahuevo.jpg",
-    title: "DON HUEVO",
+    img: "https://imagenesrutalab.s3.amazonaws.com/llorona/cumple/ninas4pinata.JPG",
+    title: "amigas",
     cols: 2,
-  },
-  {
-    img: "https://imagenesrutalab.s3.amazonaws.com/llorona/galeriaimagenes/pizza_margarita_insta.jpg",
-    title: "Pizza margarita",
-    cols: 2,
-  },
-  {
-    img: "https://imagenesrutalab.s3.amazonaws.com/llorona/galeriaimagenes/catecorazon.jpg",
-    title: "Cate de mi corazón",
-    rows: 2,
-    cols: 2,
-    featured: true,
   },
 ];

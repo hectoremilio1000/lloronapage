@@ -10,7 +10,7 @@ export default function Calendario() {
             Reserva en la Cantina más trendy de la RomaCondesa
           </h1>
 
-          <InlineWidget url="https://calendly.com/laboratoriossanmateo/sanmateo" />
+          <InlineWidget url="https://calendly.com/reservaciones-14/reservaciones-llorona" />
         </div>
       </section>
     </div>
