@@ -1,3 +1,15 @@
+.containerCalendario {
+  background-color: #ececec;
+}
+
+.subcontainerCalendario {
+  padding: 30px;
+}
+
+.tituloCalendario {
+  text-align: center;
+}
+
 .body3component {
   background-color: #d4d4d461;
 }

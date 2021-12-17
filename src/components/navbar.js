@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import NavbarHeader from "./navbarHeader";
 import NavbarLinks from "./navbarLinks";
-import NavbarIcons from "./navbarIcons";
+import NavbarIcons from "./navBarIcons";
 
 export default class Navbar extends Component {
   state = {

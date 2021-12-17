@@ -1,14 +1,13 @@
 import React from "react";
 import { InlineWidget } from "react-calendly";
-import Typography from "@mui/material/Typography";
 
 export default function Calendario() {
   return (
     <div id="reserva" className="mt-4">
-      <section className="jumbotron text-center" id="reserva">
-        <div className="container">
+      <section className="containerCalendario">
+        <div className="subcontainerCalendario">
           <h1 className="text-center tituloCalendario">
-            En caso de que quieras ir a nuestra sucursal agenda tu cita
+            Reserva en la Cantina más trendy de la RomaCondesa
           </h1>
 
           <InlineWidget url="https://calendly.com/laboratoriossanmateo/sanmateo" />

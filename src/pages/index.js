@@ -1,11 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import { graphql } from "gatsby";
-import Img from "gatsby-image";
 import Layout from "../components/layout";
 import { HomeHeader } from "../components/styles/headers";
-import Banner from "../components/banner";
-import { BannerButton } from "../components/styles/buttons";
 
 import "../styles/global.css";
 import QuickInfo from "../components/quickInfo";
