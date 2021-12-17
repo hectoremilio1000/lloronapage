@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     color: #262626;
     background: #fff;
   }
+  
 `;
 
 export const colors = {

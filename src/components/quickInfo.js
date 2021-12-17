@@ -6,6 +6,8 @@ import { SectionButton } from "../components/styles/buttons";
 import Title from "./title";
 import Section from "../components/styles/section";
 
+import "../styles/global.css";
+
 const QuickInfo = () => (
   <Section>
     <Title message="Nuestra promesa " title="hacia ti" />
@@ -21,9 +23,13 @@ const QuickInfo = () => (
         de brocheta de tocino crujiente .
       </p>
 
-      <Link to="/reserva" style={{ textDecoration: "none" }}>
-        <SectionButton style={{ margin: "2rem auto" }}>RESERVA</SectionButton>
-      </Link>
+      <div className="subSubDiv1Banner">
+        <Link to="/reserva">
+          <button type="button" className="buttonComponente">
+            ¡Reserva ya!
+          </button>
+        </Link>
+      </div>
     </QuickInfoWrapper>
   </Section>
 );

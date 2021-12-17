@@ -18,9 +18,7 @@
   text-align: center;
 }
 
-.fisTVz {
-  height: auto !important;
-}
+/*banner*/
 
 .bannerTitulo {
   font-size: 35px !important;
@@ -63,6 +61,27 @@
   justify-content: center;
   padding-top: 10px;
 }
+
+/*secciones*/
+.tituloSection {
+  letter-spacing: 0.3rem;
+  font-size: 2rem;
+  color: #3eeb91;
+}
+
+.subTituloSection {
+  letter-spacing: 0.3rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.linea {
+  width: 5rem;
+  height: 0.2rem;
+  background: #3eeb91;
+  margin: 0.5rem auto;
+}
+
 ul {
   padding-inline-start: 0px !important;
 }

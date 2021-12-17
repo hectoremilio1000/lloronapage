@@ -43,12 +43,13 @@ const IndexPage = () => (
     <QuickInfo />
     <TitlebarImageList />
     <Section>
-      {/* <div>
-        <h4 className="text-center">Ubicación</h4>
-        <h2>de esta gran experiencia</h2>
-      </div> */}
-
-      <Title message="Ubicación" title="de esta gran experiencia" />
+      <div>
+        <h4 className="text-center tituloSection">Ubicación</h4>
+        <h2 className="text-center subTituloSection">
+          de esta gran experiencia
+        </h2>
+        <div className="linea"></div>
+      </div>
 
       <QuickInfoWrapper>
         <p className="textUbicacion">

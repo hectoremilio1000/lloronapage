@@ -15,11 +15,6 @@ export default class NavbarLinks extends Component {
         path: "/",
         name: "inicio",
       },
-      // {
-      //   id: 1,
-      //   path: "/menu",
-      //   name: "menú",
-      // },
       {
         id: 1,
         path: "/reserva",
