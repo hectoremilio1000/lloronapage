@@ -18,10 +18,13 @@ export default function reserva() {
       <HomeHeader />
       <Calendario />
       <Section>
-        <Title
-          message="Los jueves "
-          title="Celebra tu cumpleaños con nosotros"
-        />
+        <div>
+          <h4 className="text-center tituloSection">Celebra tu cumpleaños</h4>
+          <h2 className="text-center subTituloSection">
+            los jueves con nosotros
+          </h2>
+          <div className="linea"></div>
+        </div>
 
         <QuickInfoWrapper>
           <p className="textUbicacion">

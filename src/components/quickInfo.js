@@ -10,7 +10,11 @@ import "../styles/global.css";
 
 const QuickInfo = () => (
   <Section>
-    <Title message="Nuestra promesa " title="hacia ti" />
+    <div>
+      <h4 className="text-center tituloSection">Hacia TI</h4>
+      <h2 className="text-center subTituloSection">Nuestra promesa</h2>
+      <div className="linea"></div>
+    </div>
 
     <QuickInfoWrapper>
       <p className="text">

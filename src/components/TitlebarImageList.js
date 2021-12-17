@@ -11,7 +11,11 @@ import Section from "../components/styles/section";
 export default function TitlebarImageList() {
   return (
     <Section>
-      <Title title="Nuestros productos" message="Algo de" />
+      <div>
+        <h4 className="text-center tituloSection">Nuestros productos</h4>
+        <h2 className="text-center subTituloSection">Algo de</h2>
+        <div className="linea"></div>
+      </div>
       <ImageList>
         <ImageListItem key="Subheader" cols={2}></ImageListItem>
         {itemData.map(item => (
