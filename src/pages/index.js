@@ -12,6 +12,13 @@ import { SectionButton } from "../components/styles/buttons";
 import Title from "../components/title";
 import Section from "../components/styles/section";
 
+import { Amplify } from "aws-amplify";
+
+import "@aws-amplify/ui-react/styles.css";
+
+import awsExports from "../aws-exports";
+Amplify.configure(awsExports);
+
 const IndexPage = () => (
   <Layout>
     <HomeHeader />
@@ -40,7 +47,7 @@ const IndexPage = () => (
         </div>
       </div>
     </header>
-    <QuickInfo />
+    <QuickInfo className="mt-2" />
     <TitlebarImageList />
     <Section>
       <div>

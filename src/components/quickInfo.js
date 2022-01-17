@@ -2,14 +2,12 @@ import React from "react";
 import { Link } from "gatsby";
 
 import { QuickInfoWrapper } from "../components/styles/globalStyles";
-import { SectionButton } from "../components/styles/buttons";
-import Title from "./title";
 import Section from "../components/styles/section";
 
 import "../styles/global.css";
 
 const QuickInfo = () => (
-  <Section>
+  <Section className="mt-2">
     <div>
       <h4 className="text-center tituloSection">Hacia TI</h4>
       <h2 className="text-center subTituloSection">Nuestra promesa</h2>

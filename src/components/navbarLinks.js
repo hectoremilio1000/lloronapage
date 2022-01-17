@@ -20,6 +20,16 @@ export default class NavbarLinks extends Component {
         path: "/reserva",
         name: "reserva",
       },
+      {
+        id: 2,
+        path: "/menullorona",
+        name: "Menú",
+      },
+      {
+        id: 3,
+        path: "/administrador",
+        name: "Administrador",
+      },
     ],
   };
 

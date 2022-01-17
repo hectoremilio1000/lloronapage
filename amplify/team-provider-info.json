@@ -1,15 +1,20 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-lloronapage-dev-191753-authRole",
-      "UnauthRoleArn": "arn:aws:iam::900765165512:role/amplify-lloronapage-dev-191753-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::900765165512:role/amplify-lloronapage-dev-191753-authRole",
+      "AuthRoleName": "amplify-lloronamenu-dev-80240-authRole",
+      "UnauthRoleArn": "arn:aws:iam::900765165512:role/amplify-lloronamenu-dev-80240-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::900765165512:role/amplify-lloronamenu-dev-80240-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-lloronapage-dev-191753-deployment",
-      "UnauthRoleName": "amplify-lloronapage-dev-191753-unauthRole",
-      "StackName": "amplify-lloronapage-dev-191753",
-      "StackId": "arn:aws:cloudformation:us-east-1:900765165512:stack/amplify-lloronapage-dev-191753/2af08c70-5ed7-11ec-b4cd-0a36cc27ee65",
-      "AmplifyAppId": "d2txbjl3n8n6zk"
+      "DeploymentBucketName": "amplify-lloronamenu-dev-80240-deployment",
+      "UnauthRoleName": "amplify-lloronamenu-dev-80240-unauthRole",
+      "StackName": "amplify-lloronamenu-dev-80240",
+      "StackId": "arn:aws:cloudformation:us-east-1:900765165512:stack/amplify-lloronamenu-dev-80240/241d7090-779e-11ec-9f8f-0e4cf8f6596b",
+      "AmplifyAppId": "dtyki8xgr5l14"
+    },
+    "categories": {
+      "auth": {
+        "lloronamenueaa9fbbe": {}
+      }
     }
   }
 }

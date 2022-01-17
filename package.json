@@ -15,10 +15,12 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^2.1.8",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@mui/icons-material": "^5.2.4",
     "@mui/material": "^5.2.4",
+    "amplify": "^0.0.11",
     "bootstrap": "4.6",
     "gatsby": "^4.4.0",
     "gatsby-image": "2.0.29",
