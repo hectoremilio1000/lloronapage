@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "lloronamenuapi",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authlloronamenueaa9fbbe",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

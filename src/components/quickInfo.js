@@ -9,6 +9,9 @@ import "../styles/global.css";
 const QuickInfo = () => (
   <Section className="mt-2">
     <div>
+      <h1 className="text-center font-weight-bold">Cantina La Llorona</h1>
+    </div>
+    <div>
       <h4 className="text-center tituloSection">Hacia TI</h4>
       <h2 className="text-center subTituloSection">Nuestra promesa</h2>
       <div className="linea"></div>

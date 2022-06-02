@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
 import { FaAlignRight } from "react-icons/fa";
+import logo from "../data/imagenes/logo_alta_sin_nombre.png";
 
 import {
   colors,
@@ -16,7 +17,7 @@ export default class NavbarHeader extends Component {
     return (
       <NavbarHeaderWrapper>
         <Link to="/" className="logo">
-          La LLorona
+          <img src={logo} width="100" />
         </Link>
         <FaAlignRight
           className="toggle-icon"
@@ -47,9 +48,10 @@ const NavbarHeaderWrapper = styled.div`
   }
 
   .logo {
+    background-image: url("../data/imagenes/logo_alta_sin_nombre.png");
     background-image: linear-gradient(
       to right,
-      ${colors.mainGrey} 50%,
+      ${colors.mainWhite} 70%,
       ${colors.mainYellow} 50%
     );
     background-position: 0;
